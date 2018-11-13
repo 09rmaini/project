@@ -25,8 +25,13 @@ public class Service {
         	}
         }
         
-       public account getaccount(int AccountNumber) {
-    	   return map.get(AccountNumber);
+       public int getAccount(String name) {
+    	   return
+    			   (int) map.entrySet()
+    			                   .stream()
+    			                   .filter(account ->
+    			                   account.getValue().getFirstName().equalsIgnoreCase(name))
+    			                   .count();
        }
  
         
