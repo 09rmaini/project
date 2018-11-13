@@ -28,14 +28,7 @@ public class Service {
        public account getaccount(int AccountNumber) {
     	   return map.get(AccountNumber);
        }
-
-	
-
-//	public int getPerson() {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
-// 
+ 
         
         
     
