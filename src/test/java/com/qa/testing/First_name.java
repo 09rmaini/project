@@ -27,6 +27,7 @@ public class First_name {
 		serviceOjb.addAccount("Rohan", "Maini");
 		serviceOjb.addAccount("Rohan", "Maini");
 		serviceOjb.addAccount("Vincent", "Yeadon");
+		serviceOjb.addAccount("Abbas", "A");
 		
 		
 		firstName= "Rohan";
