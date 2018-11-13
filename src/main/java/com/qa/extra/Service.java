@@ -20,7 +20,7 @@ public class Service {
         public void retrieveAccountInfo(int accountNumber) {
         	for(Integer i: map.keySet()) {
         		if(i == accountNumber) {
-        			System.out.printf("The first name is: %s and the surname is: %s \n", map.get(i).getFirstName(), map.get(i).getLastName() );
+        			System.out.printf("The  hello first name is: %s and the surname is: %s \n", map.get(i).getFirstName(), map.get(i).getLastName() );
         		}
         	}
         }
@@ -28,14 +28,7 @@ public class Service {
        public account getaccount(int AccountNumber) {
     	   return map.get(AccountNumber);
        }
-
-	
-
-//	public int getPerson() {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
-// 
+ 
         
         
     
