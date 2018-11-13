@@ -10,8 +10,10 @@ public class Service {
 	
         HashMap<Integer, account> map = new HashMap<Integer, account>();
         public static int AccountNumber = 0;
-        public void addAccount(String firstName, String surname) {
-        	this.map.put(AccountNumber, new account(firstName, surname));
+       
+
+		public void addAccount(String firstName, String surname) {
+        	map.put(AccountNumber, new account(firstName, surname));
         	AccountNumber++;
         }
         
@@ -22,6 +24,10 @@ public class Service {
         		}
         	}
         }
+        
+       public account getaccount(int AccountNumber) {
+    	   return map.get(AccountNumber);
+       }
  
         
         
