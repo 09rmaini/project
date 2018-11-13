@@ -34,6 +34,16 @@ public class First_name {
 		countName=3;
 		int accountacount=serviceOjb.getAccount(firstName);
 		assertEquals(countName,accountacount);
+		firstName= "Vincent";
+		countName=1;
+		int accountacount2=serviceOjb.getAccount(firstName);
+		assertEquals(countName,accountacount2);
+		firstName= "Abbas";
+		countName=1;
+		int accountacount3=serviceOjb.getAccount(firstName);
+		assertEquals(countName,accountacount3);
+		
+		
 	}
 
 	
